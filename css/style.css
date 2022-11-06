@@ -53,9 +53,11 @@ main {
   flex-grow: 1;
   width: 50vw;
 }
+
 .subItems {
   flex-grow: 2;
   width: 50vw;
+
 }
 
 .subItems a:link,
@@ -65,9 +67,17 @@ main {
   margin: 0 2%;
   padding: 10px;
   border-radius: 10px;
+
+
 }
 
 .subItems a:hover {
   background-color: #cdd2ff;
   color: #494b7a;
+}
+
+.subItems.project {
+
+  display: flex;
+  flex-wrap: wrap;
 }
